@@ -4,10 +4,17 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "prisma-gen": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "axios": "^1.6.3",
+    "mongodb": "^6.3.0",
     "next": "latest",
+    "prisma": "^5.7.1",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
